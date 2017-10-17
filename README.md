@@ -11,17 +11,18 @@
 ## 上滑加载更多数据
 
 数据源用的静态json,也可以使用rap作为接口。改进了加载完数据重复加载的问题。
+<br>
 
 ### 实例DEMO（在线网址和二维码）
 
 #### 在线网址
-<br><br>
+<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
-
+<br>
 #### 二维码  
-<br><br>
+<br>
 ![img](https://songxtianx.github.io/vue1-drapload/temp/qr.png)
-
+<br>
 ### 代码
 #### HTML
 ```html
