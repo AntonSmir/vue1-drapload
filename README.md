@@ -11,14 +11,16 @@
 </p>
 
 
-## 上滑加载更多数据
+# 上滑加载更多数据 Drap Load
 
 数据源用的静态json,也可以使用rap作为接口。改进了加载完数据重复加载的问题。
 <br>
+<br>
+<br>
 
-### 实例DEMO（在线网址和二维码）
+## 实例 DEMO（在线网址和二维码）
 
-#### 在线网址
+### 在线网址 URL
 
 <br>
 
@@ -26,7 +28,7 @@
 
 <br>
 
-#### 二维码  
+### 二维码 QR
 
 <br>
 
@@ -34,8 +36,8 @@
 
 <br>
 
-### 代码
-#### HTML
+## 代码 CODE
+### HTML
 ```html
     <div v-drapload drapload-key="ascroll" drapload-initialize="true" drapload-down="down()">
 
@@ -46,7 +48,7 @@
 
     </div>
 ```
-#### JAVASCRIPT
+### JAVASCRIPT
 通过前端循环数据，判定数据加载完成之后修改JS里的数据状态。
 
 
@@ -92,3 +94,9 @@
             });
         }
 ```
+
+## 保持联系 Stay In Touch
+
+- [Facebook](https://www.facebook.com/songxtianx)
+- [Blog](http://www.cnxusong.com)
+- [微博](http://weibo.com/songxtianx)
