@@ -1,0 +1,684 @@
+{
+  "sites": [
+    {
+      "name": "1黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "2虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "3黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "4虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "5黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "6虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "7黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "8虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "9黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "10虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "11黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "12虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "13黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "14虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "15黄埔南车站路779号街旧区地块商品住宅项目",
+      "productType": "办公",
+      "ancestralLandArea": "4466431111113",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp1.png",
+      "icon": [
+        {
+          "isGrey":"false",
+          "num":"999"
+        },
+        {
+          "isGrey":"false",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        },
+        {
+          "isGrey":"true",
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"99"
+        },
+        {
+          "isGrey":"false",
+          "num":"10"
+        }
+      ]
+    },
+    {
+      "name": "虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    },
+    {
+      "name": "Last虹口江湾镇街道A03B-11号地块商项目",
+      "productType": "办公",
+      "ancestralLandArea": " 446643.3",
+      "grossFloorArea": "277617",
+      "volumeRatio": "3.0",
+      "groundArea": "1653180",
+      "undergroundArea": "112299",
+      "saleableArea": "0",
+      "buildingNumber": "3",
+      "totalNumber": "1",
+      "parkingSpace": "1350",
+      "imgUrl": "temp/temp2.png",
+      "icon": [
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"0"
+        },
+        {
+          "isGrey":false,
+          "num":"88"
+        },
+        {
+          "isGrey":"false",
+          "num":"991"
+        },
+        {
+          "isGrey":"true",
+          "num":"0"
+        }
+      ]
+    }
+  ]
+}
