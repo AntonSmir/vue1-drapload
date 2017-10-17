@@ -1,8 +1,12 @@
 <p align="center"><a href="https://vuejs.org" target="_blank"><img width="100"src="https://vuejs.org/images/logo.png"></a></p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/vue1_drapload-v1.0.0-09BF3E.svg" alt="Version">
   <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/vuejs/vue/dev.svg" alt="Build Status"></a>
   <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status"></a>
+  <img src="https://img.shields.io/chrome-web-store/stars/nimelepbpejjlbmoobocpfnjhihnpked.svg" alt="Rating">
+  <img src="https://img.shields.io/badge/platform-android|ios-brightgreen.svg" alt="platform">
+  <a href="https://www.facebook.com/songxtianx"><img src="https://img.shields.io/badge/facebook-songxtianx-brightgreen.svg" alt="Facebook"></a>  
   <br>
   <a href="https://saucelabs.com/u/vuejs"><img src="https://saucelabs.com/browser-matrix/vuejs.svg" alt="Sauce Test Status"></a>
 </p>
