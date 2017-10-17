@@ -12,39 +12,30 @@
 
 数据源用的静态json,也可以使用rap作为接口。改进了加载完数据重复加载的问题。
 
-### 实例demo
+### 实例DEMO（在线网址和二维码）
 
-[DEMO 链接](https://songxtianx.github.io/vue1-drapload/)
+- [在线 DEMO 网址链接](https://songxtianx.github.io/vue1-drapload/)  <br>
+[https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
 
+- 二维码  <br>
+![img](https://songxtianx.github.io/vue1-drapload/temp/qr.png)
 
 ### 代码
 
 通过前端循环数据，判定数据加载完成之后修改JS里的数据状态。
 
 
-```markdown
-    var counter = 0;
-    var app = new Vue({
-        el: 'body',
-        data: function () {
-            return { a: []}
-        },
-        ready: function () {
-            var me = this;
-            me.$options.vue = me
-        },
+```JavaScript
         /**
          * 加载数据
          * @param fn
          */
         loadListData: function (fn) {
-
             // 每页展示个数
             var num = 4;
             var pageStart = 0,pageEnd = 0;
             var me = this.vue;
             $.ajax({
-//                url: 'npm-all',
                 url: '/vue1-drapload/projectManage.json',
                 data: {},
                 type: 'GET',
@@ -74,35 +65,5 @@
                     }
                 }
             });
-        },
-        methods:{
-            'iconClick1':function () {
-                alert("iconClick1");
-            },
-            'iconClick2':function () {
-                alert("iconClick2");
-            },
-            'iconClick3':function () {
-                alert("iconClick3");
-            },
-            'iconClick4':function () {
-                alert("iconClick4");
-            },
-            'iconClick5':function () {
-                alert("iconClick5");
-            },
-            'iconClick6':function () {
-                alert("iconClick6");
-            },
-            down: function () {
-                var me = this
-                //当滚动条距离底部高度等于你在drapload-foot设置的高度时将运行一次此函数
-                //if scrollTop = drapload-foot , function run.
-                me.$options.loadListData(function (data) {
-                    me.a = me.a.concat(data)
-                    me.ascroll.resetload()
-                });
-            }
         }
-    })
 ```
