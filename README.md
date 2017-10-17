@@ -16,13 +16,21 @@
 ### 实例DEMO（在线网址和二维码）
 
 #### 在线网址
+
 <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
+
 <br>
+
 #### 二维码  
+
 <br>
+
 ![img](https://songxtianx.github.io/vue1-drapload/temp/qr.png)
+
 <br>
+
 ### 代码
 #### HTML
 ```html
