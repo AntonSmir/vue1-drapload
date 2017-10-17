@@ -14,14 +14,27 @@
 
 ### 实例DEMO（在线网址和二维码）
 
-- [在线 DEMO 网址链接](https://songxtianx.github.io/vue1-drapload/)  <br>
-[https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
+#### 在线网址
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://songxtianx.github.io/vue1-drapload/](https://songxtianx.github.io/vue1-drapload/)
 
-- 二维码  <br>
+#### 二维码  
+<br><br>
 ![img](https://songxtianx.github.io/vue1-drapload/temp/qr.png)
 
 ### 代码
+#### HTML
+```html
+    <div v-drapload drapload-key="ascroll" drapload-initialize="true" drapload-down="down()">
 
+            <div class="item clearfix" v-for="data in a" v-cloak>
+                <h1 class="title text-over">{{data.name}}</h1>
+                ...
+            </div>
+
+    </div>
+```
+#### JAVASCRIPT
 通过前端循环数据，判定数据加载完成之后修改JS里的数据状态。
 
 
