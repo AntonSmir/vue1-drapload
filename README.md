@@ -1,37 +1,114 @@
-## Welcome to GitHub Pages
+<p align="center"><a href="https://vuejs.org" target="_blank"><img width="100"src="https://vuejs.org/images/logo.png"></a></p>
 
-You can use the [editor on GitHub](https://github.com/songxtianx/vue1-drapload/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<p align="center">
+  <a href="https://circleci.com/gh/vuejs/vue/tree/dev"><img src="https://img.shields.io/circleci/project/vuejs/vue/dev.svg" alt="Build Status"></a>
+  <a href="https://codecov.io/github/vuejs/vue?branch=dev"><img src="https://img.shields.io/codecov/c/github/vuejs/vue/dev.svg" alt="Coverage Status"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/dm/vue.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/v/vue.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/vue"><img src="https://img.shields.io/npm/l/vue.svg" alt="License"></a>
+  <a href="https://chat.vuejs.org/"><img src="https://img.shields.io/badge/chat-on%20discord-7289da.svg" alt="Chat">
+  <br>
+  <a href="https://saucelabs.com/u/vuejs"><img src="https://saucelabs.com/browser-matrix/vuejs.svg" alt="Sauce Test Status"></a>
+</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<h2 align="center">Supporting Vue.js</h2>
 
-### Markdown
+Vue.js is an MIT-licensed open source project. It's an independent project with its ongoing development made possible entirely thanks to the support by these awesome [backers](https://github.com/vuejs/vue/blob/dev/BACKERS.md). If you'd like to join them, please consider:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Become a backer or sponsor on Patreon](https://www.patreon.com/evanyou).
+- [Become a backer or sponsor on OpenCollective](https://opencollective.com/vuejs).
+
+## 上滑加载更多数据
+
+[DEMO 链接](https://songxtianx.github.io/vue1-drapload/)
+数据源用的静态json,也可以使用rap作为接口。改进了加载完数据重复加载的问题。
+
+### 代码
+
+通过前端循环数据，判定数据加载完成之后修改JS里的数据状态。
+
 
 ```markdown
-Syntax highlighted code block
+    var counter = 0;
+    var app = new Vue({
+        el: 'body',
+        data: function () {
+            return { a: []}
+        },
+        ready: function () {
+            var me = this;
+            me.$options.vue = me
+        },
+        /**
+         * 加载数据
+         * @param fn
+         */
+        loadListData: function (fn) {
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+            // 每页展示个数
+            var num = 4;
+            var pageStart = 0,pageEnd = 0;
+            var me = this.vue;
+            $.ajax({
+//                url: 'npm-all',
+                url: '/vue1-drapload/projectManage.json',
+                data: {},
+                type: 'GET',
+                success: function (data) {
+                    // 初始化数据 先获取所有数据并初始化前num条
+                    // Initialize the data,get 0-num data of the array.
+                    counter++;
+                    pageEnd = num * counter;
+                    pageStart = pageEnd - num;
+                    if(pageStart <= data.sites.length){
+                        for(var i = pageStart; i < pageEnd; i++){
+                            for (j = 0; j < data.sites[i].icon.length; j++) {
+                                if (data.sites[i].icon[j].num>99) {
+                                    data.sites[i].icon[j].num = "99+";
+                                }
+                            }
+                            fn(data.sites[i]);
+                            if((i + 1) >= data.sites.length){
+                                function noDatas() {
+                                    me.$root.ascroll.noData();
+                                }
+                                me.$root.ascroll._options.loadDownFn=noDatas();
+                                me.$root.ascroll.resetload();
+                                break;
+                            }
+                        }
+                    }
+                }
+            });
+        },
+        methods:{
+            'iconClick1':function () {
+                alert("iconClick1");
+            },
+            'iconClick2':function () {
+                alert("iconClick2");
+            },
+            'iconClick3':function () {
+                alert("iconClick3");
+            },
+            'iconClick4':function () {
+                alert("iconClick4");
+            },
+            'iconClick5':function () {
+                alert("iconClick5");
+            },
+            'iconClick6':function () {
+                alert("iconClick6");
+            },
+            down: function () {
+                var me = this
+                //当滚动条距离底部高度等于你在drapload-foot设置的高度时将运行一次此函数
+                //if scrollTop = drapload-foot , function run.
+                me.$options.loadListData(function (data) {
+                    me.a = me.a.concat(data)
+                    me.ascroll.resetload()
+                });
+            }
+        }
+    })
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/songxtianx/vue1-drapload/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
