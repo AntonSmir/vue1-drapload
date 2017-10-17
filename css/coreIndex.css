@@ -1,0 +1,13 @@
+@charset "utf-8";
+/**
+ * Core Index CSS Document
+ * Created by Francis on 2017/06/15.
+ */
+.core-index{background-color:#fff; font-size:1.3rem;}
+.core-index .first{ padding:0;}
+.core-index .core-index-title{ padding:1rem 0 1rem 1.3rem ; background-color:#ffd670; color:#fff;}
+.core-index .children{ padding-left:3%;}
+.core-index .icon-order{ opacity:0;}
+.core-index .core-index-wra{ padding-top:.8rem; padding-bottom:.6rem;border-bottom:1px solid #eee;}
+.core-index .core-index-left{ float:left; padding-left:.6rem;width:calc(100% - 13rem); overflow:hidden; -ms-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap;}
+.core-index .core-index-right{ float:right; width:12rem;overflow:hidden; -ms-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap;}
