@@ -53,10 +53,6 @@
 
 
 ```JavaScript
-        /**
-         * 加载数据
-         * @param fn
-         */
     var counter = 0;
     var app = new Vue({
         el: 'body',
@@ -67,6 +63,10 @@
             var me = this;
             me.$options.vue = me
         },
+        /**
+         * 加载数据
+         * @param fn
+         */
         loadListData: function (fn) {
             // 每页展示个数
             var num = 4;
