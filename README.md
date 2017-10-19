@@ -57,6 +57,16 @@
          * 加载数据
          * @param fn
          */
+    var counter = 0;
+    var app = new Vue({
+        el: 'body',
+        data: function () {
+            return { a: []}
+        },
+        ready: function () {
+            var me = this;
+            me.$options.vue = me
+        },
         loadListData: function (fn) {
             // 每页展示个数
             var num = 4;
@@ -92,7 +102,19 @@
                     }
                 }
             });
+        },
+        methods:{
+            down: function () {
+                var me = this
+                //当滚动条距离底部高度等于你在drapload-foot设置的高度时将运行一次此函数
+                //if scrollTop = drapload-foot , function run.
+                me.$options.loadListData(function (data) {
+                    me.a = me.a.concat(data)
+                    me.ascroll.resetload()
+                });
+            }
         }
+    })        
 ```
 
 ## 保持联系 Stay In Touch
